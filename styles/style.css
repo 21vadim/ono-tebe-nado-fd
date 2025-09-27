@@ -1,1 +1,60 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  justify-content: center;
+  align-items: center;
+  padding: 94px 50px;
+}
+
+.header-nav {}
+
+.header__links-list {
+  display: flex;
+  gap: 30px;
+}
+
+.header__links-list-item_no-bullit {
+  list-style-type: none;
+}
+
+.header__links-list-item {
+  list-style-type: circle;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header-logo-img {
+  width: 130px;
+  height: auto;
+}
+
+
+
+.span-text {
+min-height: 115px;
+}
+.aligned-text-left {
+width: 100%;
+margin-left: 50px;
+text-align: left;
+}
+.aligned-text-center {
+text-align: center;
+width: 100%;
+display: block;
+margin-left: 0.05em;
+}
+.aligned-text_right {
+text-align: right;
+width: 100%;
+display: block;
+margin-right: 50px;
+}
+.letter-align {
+padding-left: 0.1em;
+}
+.letter-spacing-normal {
+  letter-spacing: normal;
+}
