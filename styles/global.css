@@ -1,38 +1,24 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-body {
-  width: 1100px;
-  margin: 0 auto;
-  font-family: Raleway, sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-ol,
-li,
-blockquote {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-
-a {
-  color: inherit;
+body {
+  max-width: 1100px; /* Ширина макета */
+  margin: 0 auto;    /* Центрируем страницу по горизонтали */
+  background-color: #ffffff; /* Белый фон для всего сайта */
+  font-family: 'Raleway', Arial, sans-serif; /* Основной шрифт */
+  color: #000000; /* Основной цвет текста */
 }
-
 img {
-  width: 100%;
+  max-width: 100%;
+  display: block;
+}
+a {
+  color: inherit; /* Цвет ссылки такой же, как у текста вокруг */
+  text-decoration: none; /* Убираем подчеркивание по умолчанию */
 }
 
-button {
-  font: inherit;
+address {
+  font-style: normal; /* Убираем курсив у тега address */
 }
